@@ -1,4 +1,4 @@
-CREATE VIEW analysis.orders AS
+CREATE VIEW OR REPLACE VIEW analysis.orders AS
 WITH last_status AS (
 SELECT order_id
 , status_id
